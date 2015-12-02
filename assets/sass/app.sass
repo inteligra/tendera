@@ -16,6 +16,14 @@ html
   margin: 0
   padding: 0
 
+a
+  color: $danger
+  &:hover,
+  &:focus,
+  &:active
+    text-decoration: none
+    color: $danger
+
 // navbar
 .navbar
   background-color: transparent
@@ -27,3 +35,21 @@ html
   background-size: cover
   height: 100vh
   flex-direction: row
+
+  .title-heading
+    text-align: center
+    margin-bottom: 40px
+    color: $white
+
+  .main-content
+    .category
+      text-align: center
+      ul
+        list-style: none
+        padding-left: 0
+        margin-bottom: 0
+        li
+          display: inline-block
+          p
+            text-align: center
+            color: $white
