@@ -7,4 +7,9 @@ html {
   background-color: transparent;
   border-bottom: 0; }
 
+#wrapper {
+  background: url("../images/bg-landing.png") fixed center center;
+  height: 100vh;
+  flex-direction: row; }
+
 /*# sourceMappingURL=app.css.map */
