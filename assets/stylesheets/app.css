@@ -12,6 +12,13 @@ a {
 .navbar {
   background-color: transparent;
   border-bottom: 0; }
+  .navbar .navbar-nav li a {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300; }
+    .navbar .navbar-nav li a:hover {
+      color: #d9534f; }
 
 #wrapper {
   background: url("../images/bg-landing.png") fixed center center no-repeat;
@@ -22,16 +29,41 @@ a {
     text-align: center;
     margin-bottom: 40px;
     color: #fff; }
-  #wrapper .main-content .category {
-    text-align: center; }
-    #wrapper .main-content .category ul {
-      list-style: none;
-      padding-left: 0;
-      margin-bottom: 0; }
-      #wrapper .main-content .category ul li {
-        display: inline-block; }
-        #wrapper .main-content .category ul li p {
-          text-align: center;
-          color: #fff; }
+  #wrapper .main-content {
+    margin-top: 140px; }
+    #wrapper .main-content .title-heading h1 {
+      font-size: 58px; }
+    #wrapper .main-content .title-heading p {
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: 1px; }
+    #wrapper .main-content .form-search {
+      margin-bottom: 40px; }
+      #wrapper .main-content .form-search .input-group-addon {
+        background-color: #fff;
+        border: 1px solid #fff; }
+      #wrapper .main-content .form-search .form-control {
+        border: 1px solid #fff;
+        box-shadow: none; }
+        #wrapper .main-content .form-search .form-control[placeholder] {
+          font-size: 14px; }
+        #wrapper .main-content .form-search .form-control:focus {
+          box-shadow: none; }
+    #wrapper .main-content .category {
+      text-align: center; }
+      #wrapper .main-content .category ul {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0; }
+        #wrapper .main-content .category ul li {
+          display: inline-block;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-bottom: 20px; }
+          #wrapper .main-content .category ul li p {
+            text-align: center;
+            color: #fff;
+            font-size: 16px;
+            margin-top: 5px; }
 
 /*# sourceMappingURL=app.css.map */
