@@ -66,4 +66,16 @@ a {
             font-size: 16px;
             margin-top: 5px; }
 
+#page .navbar.navbar-page {
+  background-color: #80cbc4;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+  #page .navbar.navbar-page form .form-control {
+    box-shadow: none;
+    background-color: #e7e6e6;
+    border: 1px solid #e7e6e6; }
+  #page .navbar.navbar-page form .input-group-addon {
+    border: 1px solid #e7e6e6;
+    background-color: #e7e6e6; }
+
 /*# sourceMappingURL=app.css.map */
