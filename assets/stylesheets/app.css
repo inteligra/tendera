@@ -69,7 +69,8 @@ a {
 #page .navbar.navbar-page {
   background-color: #80cbc4;
   padding-top: 5px;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  margin-bottom: 0; }
   #page .navbar.navbar-page form .form-control {
     box-shadow: none;
     background-color: #e7e6e6;
@@ -77,5 +78,29 @@ a {
   #page .navbar.navbar-page form .input-group-addon {
     border: 1px solid #e7e6e6;
     background-color: #e7e6e6; }
+#page .navbar-filter {
+  background-color: #e7e6e6;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  #page .navbar-filter ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0; }
+    #page .navbar-filter ul li {
+      display: inline-block;
+      font-size: 16px;
+      color: #2b669a; }
+      #page .navbar-filter ul li:first-child {
+        margin-right: 10px;
+        font-size: 16px; }
+      #page .navbar-filter ul li .btn-filter {
+        background-color: #bdbdbd;
+        color: #e0e0e0;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-weight: 300;
+        letter-spacing: 1px; }
+        #page .navbar-filter ul li .btn-filter:hover {
+          background-color: #999; }
 
 /*# sourceMappingURL=app.css.map */
